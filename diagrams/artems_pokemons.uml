@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>artems_pokemons</OriginalElement>
+  <nodes>
+    <node x="52.5" y="-21.0">ru.ifmo.se.pokemon.Pokemon</node>
+    <node x="-56.5" y="227.0">artems_pokemons.Shiftry</node>
+    <node x="-60.0" y="149.0">artems_pokemons.Nuzleaf</node>
+    <node x="-58.5" y="71.0">artems_pokemons.Seedot</node>
+    <node x="67.5" y="71.0">artems_pokemons.Wailmer</node>
+    <node x="199.5" y="71.0">artems_pokemons.Cobalion</node>
+    <node x="69.0" y="149.0">artems_pokemons.Wailord</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="artems_pokemons.Shiftry" target="artems_pokemons.Nuzleaf" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_pokemons.Wailord" target="artems_pokemons.Wailmer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_pokemons.Wailmer" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="artems_pokemons.Nuzleaf" target="artems_pokemons.Seedot" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_pokemons.Seedot" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-5.5" y="46.0" />
+      <point x="123.5" y="46.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+    <edge source="artems_pokemons.Cobalion" target="ru.ifmo.se.pokemon.Pokemon" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="259.0" y="46.0" />
+      <point x="123.5" y="46.0" />
+      <point x="0.0" y="21.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.5" showDependencies="true" x="139.5" y="127.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

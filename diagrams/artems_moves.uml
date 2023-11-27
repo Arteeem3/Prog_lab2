@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>artems_moves</OriginalElement>
+  <nodes>
+    <node x="390.0" y="215.0">artems_moves.LeafBlade</node>
+    <node x="500.0" y="64.0">artems_moves.NobleRoar</node>
+    <node x="147.5" y="137.0">ru.ifmo.se.pokemon.PhysicalMove</node>
+    <node x="-74.0" y="64.0">artems_moves.TakeDown</node>
+    <node x="247.0" y="64.0">artems_moves.Splash</node>
+    <node x="-74.0" y="215.0">artems_moves.RockTomb</node>
+    <node x="652.0" y="64.0">artems_moves.Rest</node>
+    <node x="80.0" y="215.0">artems_moves.DoubleKick</node>
+    <node x="369.0" y="64.0">artems_moves.Confide</node>
+    <node x="289.25" y="-14.0">ru.ifmo.se.pokemon.StatusMove</node>
+    <node x="79.0" y="64.0">artems_moves.DoubleTeam</node>
+    <node x="238.0" y="215.0">artems_moves.MetalClaw</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="artems_moves.LeafBlade" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="454.0" y="190.0" />
+      <point x="226.5" y="190.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.TakeDown" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-7.5" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.MetalClaw" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="304.0" y="190.0" />
+      <point x="226.5" y="190.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.DoubleKick" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="149.0" y="190.0" />
+      <point x="226.5" y="190.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.RockTomb" target="ru.ifmo.se.pokemon.PhysicalMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-7.0" y="190.0" />
+      <point x="226.5" y="190.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.Confide" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="424.5" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.Splash" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="298.0" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.Rest" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="694.5" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.DoubleTeam" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="153.0" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="artems_moves.NobleRoar" target="ru.ifmo.se.pokemon.StatusMove" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="566.0" y="39.0" />
+      <point x="361.25" y="39.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1263537906137184" showDependencies="true" x="341.5" y="124.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
