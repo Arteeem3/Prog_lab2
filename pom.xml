@@ -33,7 +33,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
                 <configuration>
-                    <!-- кладем зависимости в папку lib-->
+                    
                     <outputDirectory>C:/Java_study/prog_lab2/target/lib</outputDirectory>
                 </configuration>
                 <executions>
@@ -46,7 +46,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <!-- собираем jar -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
